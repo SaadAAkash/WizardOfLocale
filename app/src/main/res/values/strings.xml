@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Wizard of Locale</string>
+    <string name="btn_header">Wizard of Locale</string>
 </resources>
