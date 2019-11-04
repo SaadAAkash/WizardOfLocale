@@ -8,12 +8,24 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_change_language_en"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="@string/btn_header"
+        android:text="@string/btn_header_en"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_change_language_bn"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_change_language_bn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_header_bn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_change_language_en"
         app:layout_constraintBottom_toBottomOf="parent"
         />
 
